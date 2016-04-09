@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Latihan Memanggil Page</title>
+		<link rel="stylesheet" href="mobile/apps/jquery.mobile/jquery.mobile-1.4.0.min.css">
+		<script src="mobile/apps/jquery/jquery-1.10.2.min.js"></script>
+		<script src="mobile/apps/jquery.mobile/jquery.mobile-1.4.0.min.js"></script>
+	</head>
+	<body>
+		<!-- page1 -->
+		<div data-role="page">
+  <div data-role="header">
+    <a href="#" class="ui-btn ui-corner-all ui-shadow ui-icon-home ui-btn-icon-left">Home</a>
+    <h1>siti rohmah</h1>
+    <a href="#" class="ui-btn ui-corner-all ui-shadow ui-icon-search ui-btn-icon-left">Search</a>
+  </div>
+			<div role="main" class="ui-content">
+				<p>Ini Halaman Pertama</p>
+				<p>Milik = ......</p>
+				<p><a href="#page2">Ke Foto 1</a></p>
+				<p><a href="#page3">Ke Foto 2</a></p>
+				<p><a href="#page4">Ke Video</a></p>
+			</div>
+			<div data-role="footer">
+				<h4>Copyright@rohmah</h4>
+			</div>
+		</div>
+		<!-- end Page1 -->
+		<!-- page2 -->
+		<div data-role="page" id="page2">
+			<div data-role="header">
+				<h1>siti rohmah</h1>
+			</div>
+			<div role="main" class="ui-content" align="center">
+				<p>Halaman Foto 1</p>
+				<p><img src="img/Kepulauan-Belitung.jpg" width="500px" height="500px"></p>
+				<p><a href="#page1">Kembali Ke Halaman 1</a></p>
+			</div>
+			<div data-role="footer">
+				<h4>Copyright@rohmah</h4>
+			</div>
+		</div>
+		<!-- end Page2 -->
+		<!-- page2 -->
+		<div data-role="page" id="page3">
+			<div data-role="header">
+				<h1>siti rohmah</h1>
+			</div>
+			<div role="main" class="ui-content" align="center">
+				<p>Halaman Foto 2</p>
+				<p><img src="img/windows-green.jpg" width="800px" height="500px"></p>
+				<p><a href="#page1">Kembali Ke Halaman 1</a></p>
+			</div>
+			<div data-role="footer">
+				<h4>Copyright@rohmah</h4>
+			</div>
+		</div>
+		<!-- end Page2 -->
+		<!-- page3 -->
+		<div data-role="page" id="page4">
+			<div data-role="header">
+				<h1>siti rohmah</h1>
+			</div>
+			<div role="main" class="ui-content" align="center">
+				<p>Halaman Video</p>
+				<p>
+					<video width="720px" controls>
+						<source src="video/bis_sekolah.mp4" type="video/mp4">
+						<source src="video/bis_sekolah.ogg" type="video/ogg">
+					</video>
+				</p>
+				<p><a href="#page1">Kembali Ke Halaman 1</a></p>
+			</div>
+			<div data-role="footer">
+				<h4>Copyright@rohmah</h4>
+			</div>
+		</div>
+		<!-- end Page3 -->
+	</body>
+</html>
